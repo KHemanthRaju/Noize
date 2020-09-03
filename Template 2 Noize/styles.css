@@ -1,0 +1,123 @@
+*
+{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family : sans-serif;
+}
+
+#nav-bar{
+  position:sticky;
+  top:0;
+  z-index:10;
+}
+
+.navbar{
+  background-image: linear-gradient(to right,white,orange);
+  padding:0px;
+  transition: all 0.4s;
+}
+.nav-item{
+  padding-left : 4px;
+}
+
+.navbar-nav li{
+  padding : 0 10px;
+}
+
+.navbar-nav li a{
+  color:  #fff ;
+  font-weight :600;
+  float:right;
+  text-align:left;
+}
+
+.fa-bars{
+  color:#fff;
+  font-size:30px;
+}
+
+.navbar-toggler{
+  outline:none;
+}
+
+.container1{
+  background-color: black;
+}
+/*banner section*/
+
+.form-group .row{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#banner{
+  background: url('Come-on-feel-the-noize-film.jpg') no-repeat center;     
+    background-size: cover;
+    padding-left: 43%;
+    color:violet;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.promo-title{
+  font-size:40px;
+  font-weight:600;
+  text-align: center;
+}
+
+.navbar-brand img{
+  height:40px;
+  padding-left:20px;
+}
+
+.button{
+  background-color: black; /* Green */
+  border: 2px solid red;
+  color:white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  width:100%;
+}
+
+.map-container{
+  overflow:hidden;
+  position:relative;
+  height:0;
+  }
+.map-container iframe{
+  left:0;
+  top:0;
+  height:70%;
+  width:100%;
+  position:absolute;
+  }
+
+  .last{
+    text-align: center;
+    background-color: #000;
+    color:white;
+    padding-top: 0% 0%;
+  }
+
+.super{
+  color:white;
+}
+.fa-map-maker-alt{
+  color:white;
+}
+.txt-center{
+  color:red;
+}
+
+.khr{
+  padding-bottom: 20px;
+}
